@@ -15,3 +15,4 @@ assert s.is_subset([1,2,3,4], [1,2]) == False
 assert s.is_subset([1,2], [1,2,3,4]) == True
 assert s.is_subset([], []) == True
 assert s.is_subset([1,2], [5,7]) == False
+assert s.is_subset([1,2], [1,2]) == True
